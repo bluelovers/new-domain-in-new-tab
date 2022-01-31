@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "New Domain in New Tab",
+  "name": "New Domain in New Tab 2",
   "description": "Open links to new domains in a new tab. Configurable.",
   "version": "1.0.1",
   "options_page": "options.html",

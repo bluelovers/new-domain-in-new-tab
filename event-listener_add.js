@@ -21,7 +21,7 @@
         {
 
             // and if the clicked element links to an external domain...
-            if( document.location.hostname !== anchor.hostname )
+            if( document.location.hostname !== anchor.hostname && ( anchor.protocol && anchor.protocol !== 'javascript:' && anchor.protocol !== 'data:' ) )
             {
                 // then set target of new-domain anchor tags to "_blank".
                 anchor.target = "_blank";
